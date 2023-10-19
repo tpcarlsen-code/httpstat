@@ -1,7 +1,7 @@
 package monitors
 
 import (
-	"mon2http/src/sources"
+	"github.com/tpcarlsen-code/mon2http/sources"
 )
 
 const cpuTempType = "cpu_temp"

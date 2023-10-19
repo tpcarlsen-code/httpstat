@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
-	"mon2http/src/config"
-	"mon2http/src/entities"
-	"mon2http/src/http"
-	"mon2http/src/monitors"
-	"mon2http/src/storage"
+	"github.com/tpcarlsen-code/mon2http/config"
+	"github.com/tpcarlsen-code/mon2http/entities"
+	"github.com/tpcarlsen-code/mon2http/http"
+	"github.com/tpcarlsen-code/mon2http/monitors"
+	"github.com/tpcarlsen-code/mon2http/storage"
 )
 
 func main() {

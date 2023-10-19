@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"mon2http/src/storage"
+	"github.com/tpcarlsen-code/mon2http/storage"
 )
 
 const ctAJ = "application/json"

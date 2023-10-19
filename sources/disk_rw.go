@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"mon2http/src/entities"
+	"github.com/tpcarlsen-code/mon2http/entities"
 )
 
 const diskStatFile = "/proc/diskstats"

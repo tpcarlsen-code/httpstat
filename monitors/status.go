@@ -1,7 +1,7 @@
 package monitors
 
 import (
-	"mon2http/src/entities"
+	"github.com/tpcarlsen-code/mon2http/entities"
 )
 
 type Status struct {

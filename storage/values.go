@@ -3,7 +3,7 @@ package storage
 import (
 	"sync"
 
-	"mon2http/src/entities"
+	"github.com/tpcarlsen-code/mon2http/entities"
 )
 
 type Values struct {

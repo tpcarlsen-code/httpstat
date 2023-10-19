@@ -3,7 +3,7 @@ package monitors
 import (
 	"log"
 
-	"mon2http/src/entities"
+	"github.com/tpcarlsen-code/mon2http/entities"
 )
 
 var availableMonitors []monitor

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"mon2http/src/entities"
+	"github.com/tpcarlsen-code/mon2http/entities"
 )
 
 const tempFile = "/sys/class/thermal/thermal_zone0/temp"

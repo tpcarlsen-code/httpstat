@@ -3,7 +3,7 @@ package monitors
 import (
 	"fmt"
 
-	"mon2http/src/sources"
+	"github.com/tpcarlsen-code/mon2http/sources"
 )
 
 type BaseMonitor struct {

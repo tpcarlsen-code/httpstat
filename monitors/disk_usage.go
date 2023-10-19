@@ -1,6 +1,6 @@
 package monitors
 
-import "mon2http/src/sources"
+import "github.com/tpcarlsen-code/mon2http/sources"
 
 const diskUsageType = "disk_usage"
 const diskUsageLimit = 80 // milli-percent

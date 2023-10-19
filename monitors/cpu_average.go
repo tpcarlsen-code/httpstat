@@ -1,6 +1,6 @@
 package monitors
 
-import "mon2http/src/sources"
+import "github.com/tpcarlsen-code/mon2http/sources"
 
 const averageCPUType = "cpu_average"
 const cpuAverageLimit = 80 // milli-percent
