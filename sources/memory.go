@@ -36,8 +36,7 @@ func (c *Memory) Values() entities.Values {
 		return nil
 	}
 	lines := strings.Split(string(output), "\n")
-	lines = lines[1:]
-	memStats := readInts(lines[0], 6)
+	memStats := readInts(lines[1], 6)
 	if len(memStats) != 6 {
 		log.Printf("WARNING: Wrong len of mem stats: %d", len(memStats))
 		return nil
@@ -45,7 +44,7 @@ func (c *Memory) Values() entities.Values {
 	c.current = entities.Values{
 		{
 			Name:  "memory_usage",
-			Value: float32(memStats[5]) * 100.0 / float32(memStats[0]),
+			Value: float32(memStats[0]-memStats[5]) * 100.0 / float32(memStats[0]),
 		},
 	}
 	return c.current
